@@ -1,0 +1,47 @@
+<Page>
+    <ActionBar title="  ">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout>
+            <Button class="retour" text="" tap="onTap"></Button>
+        </StackLayout>
+        <Label class="luxe logo" textWrap="true" text="Luxe" />
+        <Label class="logo" textWrap="true" text="Drivin'" />
+        <StackLayout class="info">
+            <Label text="Inscrivez-vous à l'aide de votre adress mail" />
+        </StackLayout>
+        <StackLayout>
+            <StackLayout class="form">
+                <StackLayout class=" input-field">
+                    <TextField class="input" hint="Email">
+                    </TextField>
+                </StackLayout>
+                <StackLayout class=" input-field">
+                    <TextField class="input" hint="pseudo">
+                    </TextField>
+                </StackLayout>
+                <StackLayout class="input-field">
+                    <TextField secure="true" class="input"
+                        hint="Mot de passe">
+                    </TextField>
+                </StackLayout>
+                <StackLayout class="input-field">
+                    <TextField secure="true" class="input"
+                        hint="Confirmez votre mot de passe">
+                    </TextField>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout class="lesBoutons">
+            <Button text="CONFIRMER INSCRIPTION" class="bouton"></Button>
+        </StackLayout>
+        <StackLayout>
+            <Label class="info" text="OU" />
+        </StackLayout>
+        <StackLayout>
+            <Button text="CONNEXION" tap="onTap2" class="bouton">
+            </Button>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>

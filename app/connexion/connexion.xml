@@ -1,0 +1,39 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="  ">
+    </ActionBar>
+    <StackLayout>
+        <Label class="luxe logo" textWrap="true" text="Luxe" />
+        <Label class="logo" textWrap="true" text="Drivin'" />
+        <StackLayout class="info">
+            <Label text="Veuillez vous aunthentifiez pour accèder " />
+            <Label text="à l'application" />
+        </StackLayout>
+        <StackLayout>
+            <StackLayout class="form">
+                <StackLayout class=" input-field">
+                    <TextField id="email" class="input" hint="Email">
+                    </TextField>
+                </StackLayout>
+                <StackLayout class="input-field">
+                    <TextField secure="true" class="input"
+                        hint="Mot de passe">
+                    </TextField>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout class="lesBoutons">
+            <Button text="Connexion" class="bouton"></Button>
+        </StackLayout>
+        <StackLayout class="info">
+            <Label class="oublieMdp" tap="oublieMdp"
+                text="Mot de passe oublie?" />
+            <Label text="OU" />
+        </StackLayout>
+        <StackLayout>
+            <Button text="S'inscrire" tap="onTap2" class="bouton">
+            </Button>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>

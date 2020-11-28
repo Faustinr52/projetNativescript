@@ -1,0 +1,21 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="   ">
+    </ActionBar>
+    <StackLayout>
+        <Label class="luxe logo" textWrap="true" text="Luxe" />
+        <Label class="logo" textWrap="true" text="Drivin'" />
+        <StackLayout class="info">
+            <Label text="Veuillez vous aunthentifiez pour accèder " />
+            <Label text="à l'application" />
+        </StackLayout>
+        <StackLayout class="lesBoutons">
+            <Button tap="onTap1" text="Connexion" class="bouton"></Button>
+        </StackLayout>
+        <StackLayout>
+            <Button text="S'inscrire" tap="onTap2" class="bouton">
+            </Button>
+        </StackLayout>
+        <Label class="footer"/>
+    </StackLayout>
+</Page>

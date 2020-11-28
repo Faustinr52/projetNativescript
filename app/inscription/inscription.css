@@ -1,0 +1,42 @@
+.logo{
+    font-size: 30px;
+    margin-left: 40%;
+    font-style: italic;
+    font-weight: bold;
+}
+.luxe{
+    color: red;
+    margin-top: 1px;
+    font-style: italic;
+}
+.info{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 15px;
+    margin-bottom: 1%;
+    color: blue;
+}
+.lesBoutons{
+    margin-top: 5%;
+}
+.bouton{
+    background-color: gray;
+    border-radius: 20;
+    border-width: 1;
+    font-size: 18;
+    font-weight: bold;
+    color: black;
+    width: 70%;
+}
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 110px;
+    height: 100px;
+    background-color: red;
+}
+.retour{
+    margin-right : 80%;
+    font-weight: bold;
+}

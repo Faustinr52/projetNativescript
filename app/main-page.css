@@ -1,0 +1,40 @@
+.logo{
+    font-size: 50px;
+    margin-left: 35%;
+    font-style: italic;
+    font-weight: bold;
+}
+.luxe{
+    color: red;
+    margin-top: 5%;
+    font-style: italic;
+}
+.info{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+    margin-bottom: 1%;
+    color: blue;
+}
+.lesBoutons{
+    margin-top: 10%;
+}
+.bouton{
+    background-color: gray;
+    border-radius: 20;
+    border-width: 1;
+    font-size: 18;
+    font-weight: bold;
+    color: black;
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom : 30px;
+}
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 290px;
+    height: 100px;
+    background-color: red;
+}
