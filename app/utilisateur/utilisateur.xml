@@ -7,83 +7,83 @@
             <StackLayout orientation="horizontal">
                 <SearchBar class="search" hint="Rechercher un utilisateur">
                 </SearchBar>
-                <TextField class="addWidth" hint="Catégories" />
+                 <Button class="categories" text="Catégories" />
+                 <Image class="arrow" src="~/utilisateur/images/arrow.png"></Image>
             </StackLayout>
         </StackLayout>
         <StackLayout>
             <StackLayout orientation="horizontal">
                 <StackLayout orientation="horizontal">
                     <Image class="brand"
-                        src="utilisateur/images/mercedes.png">
+                        src="~/utilisateur/images/mercedes.png">
                     </Image>
-                    <Label class="benz" text=" Mercedes" />
                 </StackLayout>
                 <Image class="lambo"
-                    src="utilisateur/images/lambo.png">
+                    src="~/utilisateur/images/lambo.png">
                 </Image>
-                <Image class="brand" src="utilisateur/images/bmw.png">
-                </Image>
-            </StackLayout>
-            <StackLayout orientation="horizontal">
-                <StackLayout orientation="horizontal">
-                    <Image class="brand"
-                        src="utilisateur/images/ferrari.png">
-                    </Image>
-                </StackLayout>
-                <Image class="porsche"
-                    src="utilisateur/images/porsche.png">
-                </Image>
-                <Image class="maserati"
-                    src="utilisateur/images/maserati.png">
+                <Image class="bmw" src="~/utilisateur/images/bmw.png">
                 </Image>
             </StackLayout>
             <StackLayout orientation="horizontal">
                 <StackLayout orientation="horizontal">
                     <Image class="brand"
-                        src="utilisateur/images/range.png">
+                        src="~/utilisateur/images/ferrari.png">
                     </Image>
                 </StackLayout>
                 <Image class="porsche"
-                    src="utilisateur/images/land.png">
+                    src="~/utilisateur/images/porsche.png">
                 </Image>
                 <Image class="maserati"
-                    src="utilisateur/images/rolls.png">
+                    src="~/utilisateur/images/maserati.png">
                 </Image>
             </StackLayout>
             <StackLayout orientation="horizontal">
                 <StackLayout orientation="horizontal">
                     <Image class="brand"
-                        src="utilisateur/images/audi.png">
+                        src="~/utilisateur/images/range.png">
                     </Image>
                 </StackLayout>
                 <Image class="porsche"
-                    src="utilisateur/images/bentley.png">
+                    src="~/utilisateur/images/land.png">
                 </Image>
                 <Image class="maserati"
-                    src="utilisateur/images/mclaren.png">
+                    src="~/utilisateur/images/rolls.png">
                 </Image>
             </StackLayout>
             <StackLayout orientation="horizontal">
                 <StackLayout orientation="horizontal">
                     <Image class="brand"
-                        src="utilisateur/images/jaguar.png">
+                        src="~/utilisateur/images/audi.png">
+                    </Image>
+                </StackLayout>
+                <Image class="bentley"
+                    src="~/utilisateur/images/bentley.png">
+                </Image>
+                <Image class="mclaren"
+                    src="~/utilisateur/images/mclaren.png">
+                </Image>
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <StackLayout orientation="horizontal">
+                    <Image class="jaguar"
+                        src="~/utilisateur/images/jaguar.png">
                     </Image>
                 </StackLayout>
                 <Image class="porsche"
-                    src="utilisateur/images/chev.png">
+                    src="~/utilisateur/images/chev.png">
                 </Image>
-                <Image class="maserati"
-                    src="utilisateur/images/aston.png">
+                <Image class="aston"
+                    src="~/utilisateur/images/aston.png">
                 </Image>
             </StackLayout>
             <StackLayout class="boutons" orientation="horizontal">
                 <Button tap="onTap" class="profile" text="Profil" />
-                <Image class="profileIcon"
-                    src="utilisateur/images/profileNu.png">
+                <Image tap="onTap" class="profileIcon"
+                    src="~/utilisateur/images/profileNu.png">
                 </Image>
                 <Button class="message" text="Messagerie" />
                 <Image class="messagerie"
-                    src="utilisateur/images/messagerie.png">
+                    src="~/utilisateur/images/messagerie.png">
                 </Image>
             </StackLayout>
         </StackLayout>

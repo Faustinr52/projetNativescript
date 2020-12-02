@@ -6,12 +6,12 @@ ActionBar{
     height: 100px;
     background-color: red;
 }
-.profile{
+
+.pic{
     width: 100px;
     height: 100px;
-    margin-right: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .pseudo{
     margin-top : 10px; 
@@ -65,6 +65,5 @@ TextField{
     width: 70%;
 }
 .bioText{
-    /* width: 9%; */
     margin-right: 25px;
 }

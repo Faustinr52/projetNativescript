@@ -4,11 +4,10 @@
     </ActionBar>
     <StackLayout>
         <StackLayout orientation="horizontal">
-            <!-- <Image src="app/profile/images/profile.png"/> -->
-            <Image src="app/profile/images/profile.png" stretch="none" />
+            <Image class="pic" src="~/profile/images/pic.png" />
             <Label text="Pseudo : " />
-            <TextField class="pseudo" hint="" />
-            <Image class="pen" src="profile/images/pen.png"></Image>
+            <TextField  class="pseudo" hint="" />
+            <Image class="pen" src="~/profile/images/pencil.png"></Image>
         </StackLayout>
         <StackLayout class="content">
             <Label class="modifier" text="Modifier photo" />
@@ -40,13 +39,13 @@
             <Label text="Vos photos : " />
             <StackLayout orientation="horizontal">
                 <Image class="addPhoto"
-                    src="profile/images/addPhoto.png">
+                    src="~/profile/images/addPhoto.png">
                 </Image>
                 <Image class="addPhoto"
-                    src="profile/images/addPhoto.png">
+                    src="~/profile/images/addPhoto.png">
                 </Image>
                 <Image class="addPhoto"
-                    src="profile/images/addPhoto.png">
+                    src="~/profile/images/addPhoto.png">
                 </Image>
             </StackLayout>
             <Label class="ajout" text="Ajouter plus de photos" />

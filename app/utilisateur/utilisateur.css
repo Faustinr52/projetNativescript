@@ -2,19 +2,34 @@ ActionBar{
     background-color:red;
 }
 .footer{
-    margin-top: 250px;
+    margin-top: 100px;
     height: 100px;
     background-color: red;
 }
 .addWidth{
     width: 50%;
     margin-right: 5px;
-    /* margin-bottom: 10; */
     border-radius: 4;
     background: #FFFFFF;
     border-width: 0.5;
     border-color: #C4C4C4;
     box-sizing: border-box;
+}
+.categories{
+    width: 25%;
+    margin-right: 5px;
+    border-radius: 4;
+    background: #FFFFFF;
+    border-width: 0.5;
+    border-color: #C4C4C4;
+    box-sizing: border-box;
+    background-color: gray;
+    font-weight: bold;
+}
+.arrow{
+    width: 50px;
+    height: 50px;  
+    margin-left: 10px;
 }
 .search{
     width: 60%;
@@ -22,8 +37,15 @@ ActionBar{
 .brand{
     width: 100px;
     height: 100px;
-    margin-left: 50px;
+    margin-left: 45px;
     margin-top : 10px; 
+    margin-bottom: 15px;
+}
+.bmw{
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top : 10px;
 }
 .benz{
     font-size: 15px;
@@ -32,6 +54,31 @@ ActionBar{
 .lambo{
     width: 200px;
     height: 200px;
+    margin-left: 120px;
+}
+.bentley{
+    width: 150px;
+    height: 150px;
+    margin-left: 160px;
+    margin-top : 10px; 
+}
+.mclaren{
+    width: 150px;
+    height: 150px;
+    margin-left: 140px;
+}
+.jaguar{
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top : 10px; 
+    margin-bottom: 15px;
+}
+.aston{
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    margin-top : 10px;  
 }
 .profileIcon{
     width: 80px;
@@ -64,7 +111,7 @@ ActionBar{
     margin-top : 10px;
 }
 .boutons{
-    margin-top: 100px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    /* margin-bottom: 5px; */
     /* background-color: gray; */
 }
