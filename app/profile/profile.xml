@@ -4,8 +4,8 @@
     </ActionBar>
     <StackLayout>
         <StackLayout orientation="horizontal">
-            <Image class="profile" src="profile/images/profile.png">
-            </Image>
+            <!-- <Image src="app/profile/images/profile.png"/> -->
+            <Image src="app/profile/images/profile.png" stretch="none" />
             <Label text="Pseudo : " />
             <TextField class="pseudo" hint="" />
             <Image class="pen" src="profile/images/pen.png"></Image>

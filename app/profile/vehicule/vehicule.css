@@ -2,7 +2,7 @@ ActionBar{
     background-color:red;
 }
 .footer{
-    margin-top: 20px;
+    margin-top: 41%;
     height: 100px;
     background-color: red;
 }
@@ -36,6 +36,6 @@ TextField{
     margin-left: 15px;
 }
 .contenu{
-    margin-top : 5%;
+    margin-top : 10%;
     margin-left: 20px;
 }
