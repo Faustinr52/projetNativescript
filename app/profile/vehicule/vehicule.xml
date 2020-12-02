@@ -1,0 +1,27 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+    <ActionBar tap="retourProfile" title="Profile vehicule">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout class="contenu">
+            <Label text="Votre Vehicule : " />
+            <StackLayout orientation="horizontal">
+                <Label text="Marque : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Modèle : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Chevaux : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="CV : " />
+                <TextField class="cv" hint="" />
+            </StackLayout>
+            <Button class="Valider" text="Valider"></Button>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>

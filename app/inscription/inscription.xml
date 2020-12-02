@@ -13,7 +13,7 @@
         <StackLayout>
             <StackLayout class="form">
                 <StackLayout class=" input-field">
-                    <TextField class="input" hint="Email">
+                    <TextField id="email" class="input" hint="Email">
                     </TextField>
                 </StackLayout>
                 <StackLayout class=" input-field">
@@ -21,19 +21,20 @@
                     </TextField>
                 </StackLayout>
                 <StackLayout class="input-field">
-                    <TextField secure="true" class="input"
+                    <TextField id = "mdp" secure="true" class="input"
                         hint="Mot de passe">
                     </TextField>
                 </StackLayout>
                 <StackLayout class="input-field">
-                    <TextField secure="true" class="input"
+                    <TextField id = "confMdp" secure="true" class="input"
                         hint="Confirmez votre mot de passe">
                     </TextField>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
         <StackLayout class="lesBoutons">
-            <Button text="CONFIRMER INSCRIPTION" class="bouton"></Button>
+            <Button tap="inscription" text="CONFIRMER INSCRIPTION"
+                class="bouton"></Button>
         </StackLayout>
         <StackLayout>
             <Label class="info" text="OU" />

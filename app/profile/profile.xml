@@ -1,0 +1,57 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar tap="onTap" title="Complètez votre profile">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout orientation="horizontal">
+            <Image class="profile" src="profile/images/profile.png">
+            </Image>
+            <Label text="Pseudo : " />
+            <TextField class="pseudo" hint="" />
+            <Image class="pen" src="profile/images/pen.png"></Image>
+        </StackLayout>
+        <StackLayout class="content">
+            <Label class="modifier" text="Modifier photo" />
+            <Label text="Bio : " />
+            <TextField class="bioText" hint="" />
+            <Label text="Votre Vehicule : " />
+            <StackLayout orientation="horizontal">
+                <Label text="Marque : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Modèle : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Chevaux : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="CV : " />
+                <TextField class="cv" hint="" />
+            </StackLayout>
+            <Label tap="ajoutVehicule" class="ajout"
+                text="Ajoutez plus de vehicules" />
+            <StackLayout orientation="horizontal">
+                <Label text="Département : " />
+                <TextField class="depart" hint="" />
+            </StackLayout>
+            <Label text="Vos photos : " />
+            <StackLayout orientation="horizontal">
+                <Image class="addPhoto"
+                    src="profile/images/addPhoto.png">
+                </Image>
+                <Image class="addPhoto"
+                    src="profile/images/addPhoto.png">
+                </Image>
+                <Image class="addPhoto"
+                    src="profile/images/addPhoto.png">
+                </Image>
+            </StackLayout>
+            <Label class="ajout" text="Ajouter plus de photos" />
+            <Button tap="valider" class="Valider" text="Valider"></Button>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>

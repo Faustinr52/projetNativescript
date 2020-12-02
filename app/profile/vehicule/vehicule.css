@@ -1,0 +1,41 @@
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: red;
+}
+TextField{
+ margin-bottom: 10;
+  border-radius: 4;
+  background: #FFFFFF;
+  border-width: 0.5;
+  border-color: #C4C4C4;
+  box-sizing: border-box;
+}
+.addWidth{
+    width: 78%;
+    margin-right: 5px;
+}
+.cv{
+    width: 86%;
+}
+.ajout{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.Valider{
+    color: white;
+    background-color:black;
+    width: 50%;
+}
+.content{
+    margin-left: 15px;
+}
+.contenu{
+    margin-top : 5%;
+    margin-left: 20px;
+}

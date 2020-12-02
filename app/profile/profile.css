@@ -1,0 +1,70 @@
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: red;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pseudo{
+    margin-top : 10px; 
+    width: 50%;
+    height: 60px;
+}
+.pen{
+    width: 50px;
+    height: 50px;  
+    margin-left: 10px;
+}
+.modifier{
+    text-decoration: underline;
+}
+TextField{
+ margin-bottom: 10;
+  border-radius: 4;
+  background: #FFFFFF;
+  border-width: 0.5;
+  border-color: #C4C4C4;
+  box-sizing: border-box;
+}
+.addWidth{
+    width: 78%;
+    margin-right: 5px;
+}
+.cv{
+    width: 86%;
+}
+.ajout{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.addPhoto{
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.Valider{
+    color: white;
+    background-color:black;
+    width: 50%;
+}
+.content{
+    margin-left: 15px;
+}
+.depart{
+    width: 70%;
+}
+.bioText{
+    /* width: 9%; */
+    margin-right: 25px;
+}
