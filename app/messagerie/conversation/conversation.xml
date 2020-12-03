@@ -1,0 +1,20 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="Nouvelle conversation">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label class = "pseudo" text = "Pseudo :"/>
+                <TextField id = "pseudo" class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout>
+                <TextField id = "message" class="message" hint="" />
+            </StackLayout>
+            <StackLayout>
+                <Button tap = "envoyer" id = "envoyer" text="Envoyer"></Button>
+            </StackLayout>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>

@@ -84,10 +84,7 @@ ActionBar{
     width: 80px;
     height: 80px;
 }
-.messagerie{
-    width: 80px;
-    height: 80px;
-}
+
 .profile{
     font-weight: bold;
     font-size: 30px;
@@ -97,6 +94,10 @@ ActionBar{
 .message{
     font-weight: bold;
     font-size: 20px
+}
+.messagerie{
+    width: 80px;
+    height: 80px;
 }
 .porsche{
     width: 100px;

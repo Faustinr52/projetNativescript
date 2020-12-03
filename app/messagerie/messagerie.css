@@ -1,0 +1,56 @@
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 30px;
+    height: 100px;
+    background-color: red;
+}
+.search{
+    width: 100%;
+}
+.conversation{
+    text-decoration : underline;
+    font-weight: bold;
+    margin-top: 10;
+    margin-left: 10;
+    margin-bottom: 20;
+}
+.profile{
+    width: 50;
+    height: 50;
+    border-radius: 30%;
+    margin-top: 5;
+    /* margin-right: 80%; */
+    margin-left: 10;
+}
+.prof{
+    font-weight: bold;
+    font-size: 30px;
+}
+.boutons{
+    margin-top: 80px;
+    background-color: grey;
+}
+.profileIcon{
+    width: 80px;
+    height: 80px;
+}
+.message{
+    font-weight: bold;
+    font-size: 20px
+}
+.messagerie{
+    width: 80px;
+    height: 80px;
+}
+.text{
+    margin : 15;
+}
+#pseudo{
+    font-weight: bold;
+}
+.line {
+    background: linear-gradient(to left, orangered, green, lightblue);
+    height: 2px;
+}

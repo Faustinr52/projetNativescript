@@ -81,7 +81,7 @@
                 <Image tap="onTap" class="profileIcon"
                     src="~/utilisateur/images/profileNu.png">
                 </Image>
-                <Button class="message" text="Messagerie" />
+                <Button tap="messagerie" class="message" text="Messagerie" />
                 <Image class="messagerie"
                     src="~/utilisateur/images/messagerie.png">
                 </Image>

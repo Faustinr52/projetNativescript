@@ -1,0 +1,68 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="Messagerie">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout>
+            <StackLayout orientation="horizontal">
+                <SearchBar class="search" hint="Rechercher une conversation">
+                </SearchBar>
+            </StackLayout>
+            <StackLayout>
+                <Label tap="envoyerMessage"  class = "conversation" text = "Demarrer une nouvelle conversation" />
+            </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label text = "message ........." />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label text = "message ........." />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label text = "message ........." />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label text = "message ........." />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label text = "message ........." />
+                 </StackLayout>
+           </StackLayout>
+           <label class="line"></label>
+            <StackLayout class="boutons" orientation="horizontal">
+                <Button tap = "onTap" class="prof" text="Profil" />
+                <Image  class="profileIcon"
+                    src="~/messagerie/images/profileNu.png">
+                </Image>
+                <Button class="message" text="Messagerie" />
+                <Image class="messagerie"
+                    src="~/messagerie/images/messagerie.png">
+                </Image>
+            </StackLayout>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>

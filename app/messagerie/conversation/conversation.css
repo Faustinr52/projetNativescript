@@ -1,0 +1,39 @@
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 500px;
+    height: 100px;
+    background-color: red;
+}
+.addWidth{
+    margin-top: 30;
+    margin-bottom: 20;
+     border-radius: 4;
+     background: #FFFFFF;
+     border-width: 0.5;
+     border-color: #C4C4C4;
+     box-sizing: border-box;
+     width: 73%;
+    margin-right: 5px;
+   }
+.message{
+    margin-bottom: 20;
+    border-radius: 4;
+    background: #FFFFFF;
+    border-width: 0.5;
+    border-color: #C4C4C4;
+    box-sizing: border-box;
+    height: 30%;
+}
+#envoyer{
+    margin-left: 55%;
+    color: white;
+    background-color:black;
+    width: 40%;
+}
+.pseudo{
+    font-weight: bold;
+    margin-top: 10;
+    margin-left: 15;
+}
