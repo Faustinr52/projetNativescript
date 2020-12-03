@@ -1,0 +1,80 @@
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: red;
+}
+
+.pic{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+.pseudo{
+    margin-top : 0px; 
+    width: 40%;
+    height: 60px;
+}
+.pen{
+    width: 50px;
+    height: 50px;  
+    margin-left: 10px;
+}
+.menu{
+    width: 50;
+    height: 50;
+    margin-left: 10;
+}
+.menuGr{
+    margin-left: 250;
+}
+.pic{
+    border-radius: 30%;
+    margin-left: 20;
+    margin-bottom: 30;
+}
+.profileIcon{
+    width: 80px;
+    height: 80px;
+}
+
+.profile{
+    font-weight: bold;
+    font-size: 30px;
+}
+.message{
+    font-weight: bold;
+    font-size: 20px
+}
+.messagerie{
+    width: 80px;
+    height: 80px;
+}
+.boutons{
+    margin-top: 30px;
+}
+.abonnes{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20;
+    border-radius: 4;
+    background: #FFFFFF;
+    border-width: 2;
+    border-color: #C4C4C4;
+    box-sizing: border-box;
+    width: 200;
+    height: 30;
+}
+.allAphoto{
+    margin-left: 15;
+    margin-bottom: 35
+}

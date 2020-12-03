@@ -7,7 +7,7 @@
             <StackLayout orientation="horizontal">
                 <SearchBar class="search" hint="Rechercher un utilisateur">
                 </SearchBar>
-                 <Button class="categories" text="Catégories" />
+                 <Button tap="parametre" class="categories" text="Catégories" />
                  <Image class="arrow" src="~/utilisateur/images/arrow.png"></Image>
             </StackLayout>
         </StackLayout>

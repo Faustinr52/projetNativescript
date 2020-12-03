@@ -1,0 +1,39 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar tap="onTap" title=" ">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout class = "menuGr" orientation ="horizontal">
+            <Label text = "Paramètres" />
+            <Image class="menu" src="~/profile/parametres/images/menu.png"></Image>
+        </StackLayout>
+        <StackLayout orientation="horizontal">
+            <Image class="pic" src="~/profile/parametres/images/profile.png" />
+            <Label text="Pseudo : ............" />
+        </StackLayout>
+        <StackLayout>
+            <Label class ="abonnes" text="Voir vos abonnés " />
+        </StackLayout>
+        <StackLayout class = "allAphoto" orientation = "horizontal">
+            <Image class="photo" src="~/profile/parametres/images/carré.png" />
+            <Image class="photo" src="~/profile/parametres/images/carré.png" />
+            <Image class="photo" src="~/profile/parametres/images/carré.png" />
+        </StackLayout>
+        <StackLayout class = "allAphoto" orientation = "horizontal">
+            <Image class="photo" src="~/profile/parametres/images/carré.png" />
+            <Image class="photo" src="~/profile/parametres/images/carré.png" />
+            <Image class="photo" src="~/profile/parametres/images/carré.png" />
+        </StackLayout>
+        <StackLayout class="boutons" orientation="horizontal">
+                <Button tap="onTap2" class="profile" text="Profil" />
+                <Image tap="onTap2" class="profileIcon"
+                    src="~/utilisateur/images/profileNu.png">
+                </Image>
+                <Button tap="messagerie" class="message" text="Messagerie" />
+                <Image class="messagerie"
+                    src="~/utilisateur/images/messagerie.png">
+                </Image>
+            </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>
