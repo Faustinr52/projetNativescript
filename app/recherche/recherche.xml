@@ -1,0 +1,32 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="  ">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout class = "content">
+            <Label class = "categories" text = "Categories" />
+            <StackLayout  orientation="horizontal">
+            <Label text="Marque : " />
+            <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Modèle : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Chevaux : " />
+                <TextField class="addWidth" hint="" />
+            </StackLayout>
+            <StackLayout  orientation="horizontal">
+                <Label text="cv : " />
+                <TextField class="cv" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Département : " />
+                <TextField class="departement" hint="" />
+            </StackLayout>
+            <Button tap="valider" class="Valider" text="Rechercher"></Button>
+        </StackLayout>
+    <Label class="footer" />
+    </StackLayout>
+</Page>

@@ -12,7 +12,7 @@
             <Label text="Pseudo : ............" />
         </StackLayout>
         <StackLayout>
-            <Label class ="abonnes" text="Voir vos abonnés " />
+            <Label tap="membres" class ="abonnes" text="Voir vos abonnés " />
         </StackLayout>
         <StackLayout class = "allAphoto" orientation = "horizontal">
             <Image class="photo" src="~/profile/parametres/images/carré.png" />

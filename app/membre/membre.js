@@ -1,17 +1,12 @@
 exports.onTap = args => {
     const button = args.object
     const page = button.page
-    page.frame.navigate('profile/parametres/parametres');
+    page.frame.navigate('profile/profile');
     // page.frame.goBack();
 }
 exports.messagerie = args => {
     const button = args.object
     const page = button.page
     page.frame.navigate('messagerie/messagerie');
-}
-exports.parametre = args => {
-    const button = args.object
-    const page = button.page
-    page.frame.navigate('recherche/recherche');
-    // alert('hello there....');
+    // page.frame.goBack();
 }

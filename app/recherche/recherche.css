@@ -1,0 +1,45 @@
+ActionBar{
+    background-color:red;
+}
+.footer{
+    margin-top: 70px;
+    height: 100px;
+    background-color: red;
+}
+TextField{
+    margin-bottom: 10;
+     border-radius: 4;
+     background: #FFFFFF;
+     border-width: 0.5;
+     border-color: #C4C4C4;
+     box-sizing: border-box;
+   }
+   .addWidth{
+       width: 75%;
+       margin-right: 5px;
+   }
+   .departement{
+        width: 68%;
+        margin-right: 5px;
+   }
+   .cv{
+        width: 85%;
+        margin-right: 5px;  
+   }
+   .categories{
+       margin-left: 100px;
+       margin-top: 50;
+       margin-bottom: 50;
+       font-size: 50px;
+       font-weight: bold;
+   }
+   .Valider{
+    color: white;
+    background-color:black;
+    width: 70%;
+    margin-top: 50;
+    margin-bottom: 50;
+}
+.content{
+    margin-left: 10;
+}

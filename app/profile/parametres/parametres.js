@@ -17,3 +17,10 @@ exports.messagerie = args => {
     // alert('hello');
     // page.frame.goBack();
 }
+exports.membres = args => {
+    const button = args.object
+    const page = button.page
+    page.frame.navigate('membre/membre');
+    // page.frame.goBack();
+    
+}

@@ -1,0 +1,36 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar tap="onTap" title="Profile membre ">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout orientation="horizontal">
+            <Image class="pic" src="~/profile/images/pic.png" />
+            <Label text="Pseudo : .........." />
+        </StackLayout>
+        <StackLayout orientation = "horizontal" class="content">
+             <Button class="suivre" text="Suivre"></Button>
+             <Button class="envoye" text="Envoyer un message "></Button>           
+        </StackLayout>
+        <StackLayout class = "allAphoto" orientation = "horizontal">
+            <Image class="photo" src="~/membre/images/carré.png" />
+            <Image class="photo" src="~/membre/images/carré.png" />
+            <Image class="photo" src="~/membre/images/carré.png" />
+        </StackLayout>
+        <StackLayout class = "allAphoto" orientation = "horizontal">
+            <Image class="photo" src="~/membre/images/carré.png" />
+            <Image class="photo" src="~/membre/images/carré.png" />
+            <Image class="photo" src="~/membre/images/carré.png" />
+        </StackLayout>
+        <StackLayout class ="boutons" orientation="horizontal">
+                <Button tap="onTap" class="profile" text="Profil" />
+                <Image class="profileIcon"
+                    src="~/utilisateur/images/profileNu.png">
+                </Image>
+                <Button tap = "messagerie"  class="message" text="Messagerie" />
+                <Image class="messagerie"
+                    src="~/utilisateur/images/messagerie.png">
+                </Image>
+        </StackLayout>
+        <Label class="footer" />
+    </StackLayout>
+</Page>
