@@ -32,7 +32,7 @@ exports.isValidEmail = args => {
         alert('Votre adresse mail est invalide');
     }
     else {
-        page.frame.navigate('profile/profile');
+        page.frame.navigate('utilisateur/utilisateur');
     }
 }
 exports.oublieMdp = (args) => {

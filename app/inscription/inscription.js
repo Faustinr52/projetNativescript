@@ -23,6 +23,7 @@ exports.inscription = (args) => {
     } else if (mdp != confMpd) {
         alert("Votre mot de passe ne correspond pas")
     } else {
-        alert("l'inscription a éte envoyé");
+        // alert("l'inscription a éte envoyé");
+        page.frame.navigate('profile/profile');
     }
 }

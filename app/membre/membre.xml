@@ -9,7 +9,7 @@
         </StackLayout>
         <StackLayout orientation = "horizontal" class="content">
              <Button class="suivre" text="Suivre"></Button>
-             <Button class="envoye" text="Envoyer un message "></Button>           
+             <Button tap="envoyeMessage" class="envoye" text="Envoyer un message "></Button>           
         </StackLayout>
         <StackLayout class = "allAphoto" orientation = "horizontal">
             <Image class="photo" src="~/membre/images/carré.png" />
