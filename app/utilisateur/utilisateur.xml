@@ -86,6 +86,7 @@
                     src="~/utilisateur/images/messagerie.png">
                 </Image>
             </StackLayout>
+            <Button tap = "deconnexion" class="deconnexion" text="Déconnexion" />
         </StackLayout>
         <!-- <Label class="footer" /> -->
     </StackLayout>

@@ -88,8 +88,6 @@ ActionBar{
 .profile{
     font-weight: bold;
     font-size: 30px;
-    /* margin-left :0;  */
-    /* background-color: gray */
 }
 .message{
     font-weight: bold;
@@ -98,6 +96,13 @@ ActionBar{
 .messagerie{
     width: 80px;
     height: 80px;
+}
+.deconnexion{
+    color: white;
+    background-color:black;
+    width: 70%;
+    margin-top: 20;
+    margin-bottom: 50;
 }
 .porsche{
     width: 100px;

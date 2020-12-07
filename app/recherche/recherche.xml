@@ -25,7 +25,7 @@
                 <Label text="Département : " />
                 <TextField class="departement" hint="" />
             </StackLayout>
-            <Button tap="valider" class="Valider" text="Rechercher"></Button>
+            <Button tap="onTap" class="Valider" text="Rechercher"></Button>
         </StackLayout>
     <!-- <Label class="footer" /> -->
     </StackLayout>

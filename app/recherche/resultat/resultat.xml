@@ -1,0 +1,65 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="Resultat d'un recherche">
+    </ActionBar>
+    <StackLayout>
+        <StackLayout>
+            <StackLayout>
+                <Label  class = "resultat" text = "X résultat pour votre recherche" />
+                <Label tap = "changeCouleur" class = "description" text = "Marque,Modèle,cv,chévaux,département" />
+            </StackLayout>
+            <StackLayout orientation = "horizontal" class="content">
+                <Label class = "trier" text = "Trier par : " />
+                <Button tap = "onTap" id = "profil" class="suivre" text="Profils"></Button>
+                <Button tap = "changeCouleur" id = "groupe" class="envoye" text="Groupes"></Button>           
+            </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label id="pseudo" text = "Bio" />
+                    <Label text = "Marque,Modèle,cv,chévaux,département" />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label id="pseudo" text = "Bio" />
+                    <Label text = "Marque,Modèle,cv,chévaux,département" />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label id="pseudo" text = "Bio" />
+                    <Label text = "Marque,Modèle,cv,chévaux,département" />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label id="pseudo" text = "Bio" />
+                    <Label text = "Marque,Modèle,cv,chévaux,département" />
+                 </StackLayout>
+           </StackLayout>
+            <label class="line"></label>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <Label id="pseudo" text = "Pseudo" />
+                    <Label id="pseudo" text = "Bio" />
+                    <Label text = "Marque,Modèle,cv,chévaux,département" />
+                 </StackLayout>
+           </StackLayout>
+           <label class="line"></label>
+        </StackLayout>
+        <!-- <Label class="footer" /> -->
+    </StackLayout>
+</Page>
