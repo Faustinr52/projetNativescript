@@ -51,6 +51,6 @@
             <Label class="ajout" text="Ajouter plus de photos" />
             <Button tap="valider" class="Valider" text="Valider"></Button>
         </StackLayout>
-        <Label class="footer" />
+        <!-- <Label class="footer" /> -->
     </StackLayout>
 </Page>

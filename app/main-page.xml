@@ -16,6 +16,6 @@
             <Button text="S'inscrire" tap="onTap2" class="bouton">
             </Button>
         </StackLayout>
-        <Label class="footer"/>
+        <!-- <Label class="footer"/> -->
     </StackLayout>
 </Page>

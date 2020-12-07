@@ -87,6 +87,6 @@
                 </Image>
             </StackLayout>
         </StackLayout>
-        <Label class="footer" />
+        <!-- <Label class="footer" /> -->
     </StackLayout>
 </Page>

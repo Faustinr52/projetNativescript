@@ -43,6 +43,6 @@
             <Button text="CONNEXION" tap="onTap2" class="bouton">
             </Button>
         </StackLayout>
-        <Label class="footer" />
+        <!-- <Label class="footer" /> -->
     </StackLayout>
 </Page>

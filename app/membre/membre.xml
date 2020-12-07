@@ -31,6 +31,6 @@
                     src="~/utilisateur/images/messagerie.png">
                 </Image>
         </StackLayout>
-        <Label class="footer" />
+        <!-- <Label class="footer" /> -->
     </StackLayout>
 </Page>

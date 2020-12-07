@@ -27,6 +27,6 @@
             </StackLayout>
             <Button tap="valider" class="Valider" text="Rechercher"></Button>
         </StackLayout>
-    <Label class="footer" />
+    <!-- <Label class="footer" /> -->
     </StackLayout>
 </Page>

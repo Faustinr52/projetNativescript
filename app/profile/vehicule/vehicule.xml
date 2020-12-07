@@ -22,6 +22,6 @@
             </StackLayout>
             <Button class="Valider" text="Valider"></Button>
         </StackLayout>
-        <Label class="footer" />
+        <!-- <Label class="footer" /> -->
     </StackLayout>
 </Page>
