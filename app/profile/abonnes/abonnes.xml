@@ -1,0 +1,50 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar tap="onTap" title="Vos abonnés">
+    </ActionBar>
+    <StackLayout class = "content">
+        <StackLayout>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <StackLayout orientation = "horizontal">
+                        <Label id="pseudo" text = "Pseudo" />
+                        <Label id="following" text = "Following" />
+                        <Label tap = "envoyeMessage"  id="message" text = "Message" />
+                    </StackLayout>
+                    <Label id="pseudo" text = "Bio" />
+                 </StackLayout>
+           </StackLayout>
+           <label class="line"></label>
+        </StackLayout>
+        <StackLayout>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <StackLayout orientation = "horizontal">
+                        <Label id="pseudo" text = "Pseudo" />
+                        <Label id="following" text = "Following" />
+                        <Label tap = "envoyeMessage" id="message" text = "Message" />
+                    </StackLayout>
+                    <Label id="pseudo" text = "Bio" />
+                 </StackLayout>
+           </StackLayout>
+           <label class="line"></label>
+        </StackLayout>
+        <StackLayout>
+           <StackLayout orientation="horizontal">
+                 <Image class = "profile"  src="~/messagerie/images/profile.png"></Image>
+                 <StackLayout class = "text" orientation="vertical">
+                    <StackLayout orientation = "horizontal">
+                        <Label id="pseudo" text = "Pseudo" />
+                        <Label id="following" text = "Following" />
+                        <Label tap = "envoyeMessage"  id="message" text = "Message" />
+                    </StackLayout>
+                    <Label id="pseudo" text = "Bio" />
+                 </StackLayout>
+           </StackLayout>
+           <label class="line"></label>
+        </StackLayout>
+        <!-- <Label class="footer" /> -->
+    </StackLayout>
+</Page>

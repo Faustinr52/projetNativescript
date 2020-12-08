@@ -20,7 +20,8 @@ exports.messagerie = args => {
 exports.membres = args => {
     const button = args.object
     const page = button.page
-    page.frame.navigate('membre/membre');
+    // alert("vos abonnes");
+    page.frame.navigate('profile/abonnes/abonnes');
     // page.frame.goBack();
     
 }
