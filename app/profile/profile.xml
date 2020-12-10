@@ -1,6 +1,6 @@
 <Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <ActionBar tap="onTap" title="Complètez votre profile">
+    <ActionBar tap="onTap" title="Complétez votre profil">
     </ActionBar>
     <StackLayout>
         <StackLayout orientation="horizontal">
@@ -13,29 +13,29 @@
             <Label class="modifier" text="Modifier photo" />
             <Label text="Bio : " />
             <TextField class="bioText" hint="" />
-            <Label text="Votre Vehicule : " />
+            <Label text="Votre Véhicule* : " />
             <StackLayout orientation="horizontal">
                 <Label text="Marque : " />
-                <TextField class="addWidth" hint="" />
+                <TextField id="marque" class="addWidth" hint="" />
             </StackLayout>
             <StackLayout orientation="horizontal">
                 <Label text="Modèle : " />
-                <TextField class="addWidth" hint="" />
+                <TextField id="modele" class="addWidth" hint="" />
             </StackLayout>
             <StackLayout orientation="horizontal">
                 <Label text="Chevaux : " />
-                <TextField class="addWidth" hint="" />
+                <TextField id="chevaux" class="addWidth" hint="" />
             </StackLayout>
             <StackLayout orientation="horizontal">
                 <Label text="CV : " />
-                <TextField class="cv" hint="" />
+                <TextField id="cv" class="cv" hint="" />
+            </StackLayout>
+            <StackLayout orientation="horizontal">
+                <Label text="Département : " />
+                <TextField id="dpt" class="depart" hint="" />
             </StackLayout>
             <Label tap="ajoutVehicule" class="ajout"
                 text="Ajoutez plus de vehicules" />
-            <StackLayout orientation="horizontal">
-                <Label text="Département : " />
-                <TextField class="depart" hint="" />
-            </StackLayout>
             <Label text="Vos photos : " />
             <StackLayout orientation="horizontal">
                 <Image class="addPhoto"

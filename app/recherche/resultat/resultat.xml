@@ -1,11 +1,11 @@
 <Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <ActionBar title="Resultat d'un recherche">
+    <ActionBar title="Luxe Drivin'">
     </ActionBar>
     <StackLayout>
         <StackLayout>
             <StackLayout>
-                <Label  class = "resultat" text = "X résultat pour votre recherche" />
+                <Label  class = "resultat" text = "X résultats pour votre recherche" />
                 <Label tap = "changeCouleur" class = "description" text = "Marque,Modèle,cv,chévaux,département" />
             </StackLayout>
             <StackLayout orientation = "horizontal" class="content">

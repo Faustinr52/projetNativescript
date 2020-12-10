@@ -1,6 +1,6 @@
 <Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <ActionBar tap="onTap" title="Profile membre ">
+    <ActionBar tap="onTap" title="Profil membre ">
     </ActionBar>
     <StackLayout>
         <StackLayout orientation="horizontal">

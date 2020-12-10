@@ -1,6 +1,6 @@
 <Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <ActionBar title="Profil utilisateur">
+    <ActionBar title="Luxe Drivin'">
     </ActionBar>
     <StackLayout>
         <StackLayout>

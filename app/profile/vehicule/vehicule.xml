@@ -20,7 +20,11 @@
                 <Label text="CV : " />
                 <TextField class="cv" hint="" />
             </StackLayout>
-            <Button class="Valider" text="Valider"></Button>
+            <StackLayout orientation="horizontal">
+                <Label text="Département : " />
+                <TextField class="depart" hint="" />
+            </StackLayout>
+            <Button class="Valider" tap="valider" text="Valider"></Button>
         </StackLayout>
         <!-- <Label class="footer" /> -->
     </StackLayout>

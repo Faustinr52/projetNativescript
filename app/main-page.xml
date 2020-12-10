@@ -6,7 +6,7 @@
         <Label class="luxe logo" textWrap="true" text="Luxe" />
         <Label class="logo" textWrap="true" text="Drivin'" />
         <StackLayout class="info">
-            <Label text="Veuillez vous aunthentifiez pour accèder " />
+            <Label text="Veuillez vous authentifier pour accèder " />
             <Label text="à l'application" />
         </StackLayout>
         <StackLayout class="lesBoutons">

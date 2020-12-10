@@ -21,6 +21,10 @@ TextField{
 .cv{
     width: 86%;
 }
+
+.depart {
+    width: 70%
+}
 .ajout{
     text-align: center;
     font-weight: bold;

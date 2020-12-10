@@ -1,6 +1,6 @@
 <Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <ActionBar tap="onTap" title=" ">
+    <ActionBar tap="onTap" title="Profil">
     </ActionBar>
     <StackLayout>
         <StackLayout class = "menuGr" orientation ="horizontal">
@@ -25,7 +25,7 @@
             <Image class="photo" src="~/profile/parametres/images/carré.png" />
         </StackLayout>
         <StackLayout class="boutons" orientation="horizontal">
-                <Button tap="onTap2" class="profile" text="Profil" />
+                <Button class="profile" text="Profil" />
                 <Image tap="onTap2" class="profileIcon"
                     src="~/utilisateur/images/profileNu.png">
                 </Image>

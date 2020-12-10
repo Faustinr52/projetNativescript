@@ -8,7 +8,7 @@
         <Label class="luxe logo" textWrap="true" text="Luxe" />
         <Label class="logo" textWrap="true" text="Drivin'" />
         <StackLayout class="info">
-            <Label text="Inscrivez-vous à l'aide de votre adress mail" />
+            <Label text="Veuillez vous inscrire pour accéder à l'application" />
         </StackLayout>
         <StackLayout>
             <StackLayout class="form">
@@ -17,7 +17,7 @@
                     </TextField>
                 </StackLayout>
                 <StackLayout class=" input-field">
-                    <TextField class="input" hint="pseudo">
+                    <TextField id="pseudo" class="input" hint="Pseudo">
                     </TextField>
                 </StackLayout>
                 <StackLayout class="input-field">

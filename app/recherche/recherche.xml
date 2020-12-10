@@ -1,10 +1,10 @@
 <Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <ActionBar title="  ">
+    <ActionBar title="Luxe Drivin'">
     </ActionBar>
     <StackLayout>
         <StackLayout class = "content">
-            <Label class = "categories" text = "Categories" />
+            <Label class = "categories" text = "Catégories" />
             <StackLayout  orientation="horizontal">
             <Label text="Marque : " />
             <TextField class="addWidth" hint="" />
@@ -18,7 +18,7 @@
                 <TextField class="addWidth" hint="" />
             </StackLayout>
             <StackLayout  orientation="horizontal">
-                <Label text="cv : " />
+                <Label text="CV : " />
                 <TextField class="cv" hint="" />
             </StackLayout>
             <StackLayout orientation="horizontal">
