@@ -11,3 +11,9 @@ net.webclient).DownloadString('https://www.nativescript.org/setup/win'))"**
 * Lorque vous êtes placés dans le bon répertoire depuis votre terminal, utilisez la commande **tns run andoid** pour lancer un émulateur android, **tns run ios** pour lancer un émulateur iOs.  
 * Si vous voulez visualiser le projet depuis votre propre téléphone, utilisez la commande **tns preview**. Celle-ci affichera un QR Code.  
 * Pour scanner le QR Code, téléchargez l'application **Nativescript Playground**. Vous avez besoin également de l'application **Nativescript Preview** qui s'ouvrira automatiquement une fois le QR Code scanné via Nativescript Playground.  
+
+
+## Les documents importants : 
+* Le fichier **CDC_Nativescript_Badoz_Rurangirwa.pdf** contient le cahier des charges du projet (incluant HTA, personas, scénari d'utilisation ainsi que les prototypes de l'application).  
+* Le **fichier diapo_nativescript_pdf.pdf** contient le diaporama utilisé pour la présentation du projet.  
+* Le fichier **ProjetNativescript.mp4** contient une vidéo de démonstration de l'application. 
